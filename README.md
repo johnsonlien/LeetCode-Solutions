@@ -21,7 +21,9 @@ the array
 ## [792. Number of Matching Subsequences (medium)](https://leetcode.com/problems/number-of-matching-subsequences/)
 
 Given an array of words and a target string. Find the number of matching **subsequences** where a word _w_ is considered a subsequence of word _target_ if you can remove any number of characters from _target_ to get _w_.
+
 n = targetString.size()
 m = arr.size()
-Time Complexity: O(n \* m)
-Space Complexity: O(n + m)
+
+**Time Complexity**: O(n \* m)
+**Space Complexity**: O(n + m)
