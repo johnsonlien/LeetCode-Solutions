@@ -2,6 +2,13 @@
 
 A folder to store my LeetCode solutions
 
+## [289. Game of Life (medium)](https://leetcode.com/problems/game-of-life/)
+Given a grid of size n x m, apply the four rules for each cell:
+1. Any live cell with fewer than two live neighbors dies as if caused by under-population.
+2. Any live cell with two or three live neighbors live on to the next generation.
+3. Any live cell with more than three live neighbors dies, as if by over-population.
+4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. 
+
 ## [394. Decode String (medium)](https://leetcode.com/problems/decode-string/)
 
 Given a compressed string, i.e. "3[a]2[2[ab]f]", output the decompressed string "aaaababfababf"
