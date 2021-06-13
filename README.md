@@ -2,6 +2,10 @@
 
 A folder to store my LeetCode solutions
 
+## [79. Word Search (medium)](https://leetcode.com/problems/word-search/)
+Given an `m x n` grid of characters `board` and string `word`, return `true` if `word` exists in the grid. 
+
+
 ## [289. Game of Life (medium)](https://leetcode.com/problems/game-of-life/)
 Given a grid of size n x m, apply the four rules for each cell:
 1. Any live cell with fewer than two live neighbors dies as if caused by under-population.
