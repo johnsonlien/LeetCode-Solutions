@@ -32,6 +32,9 @@ Given an array of integers, construct a binary tree where the root node is the l
 of the array and it's left nodes are all values left of that and the right nodes are to the right of
 the array
 
+## [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)
+Given the `root` of a binary tree, construct a **0-indexed** `m x n` string matrix `res` that represents a formatted layout of the tree. 
+
 ## [792. Number of Matching Subsequences (medium)](https://leetcode.com/problems/number-of-matching-subsequences/)
 
 Given an array of words and a target string. Find the number of matching **subsequences** where a word _w_ is considered a subsequence of word _target_ if you can remove any number of characters from _target_ to get _w_.
