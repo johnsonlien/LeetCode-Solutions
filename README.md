@@ -23,6 +23,9 @@ This seems to be pseudopolynomial time
 
 **Space Complexity**: O(n \* m) ?
 
+## [427. Construct Quad Tree (medium)](https://leetcode.com/problems/construct-quad-tree/)
+Given a `n*n` matrix `grid` of `0's` and `1's` only, represent it as a quad tree. Return the root of the quad tree representing the grid. 
+
 ## [654. Maximum Binary Tree (medium)](https://leetcode.com/problems/maximum-binary-tree/)
 
 Given an array of integers, construct a binary tree where the root node is the largest value
