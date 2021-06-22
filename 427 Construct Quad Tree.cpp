@@ -71,31 +71,12 @@ Node* construct(vector<vector<int>>& grid) {
         // top-left of grid
         for(int i = 0; i < sz; i++) {
             for(int j = 0; j < sz; j++) {
-                one[i][j] = grid[i][j];
+                one[i][j] = grid[i][j];         // top-left
+                two[i][j] = grid[i][j+sz];      // top-right
+                three[i][j] = grid[i+sz][j];    // bottom-left
+                four[i][j] = grid[i+sz][j+sz];  // bottom-right
             }
         }
-
-        // top-right of grid;
-        for(int i = 0; i < sz; i++) {
-            for(int j = 0; j < sz; j++) {
-                two[i][j] = grid[i][j+sz];
-            }
-        }
-        
-        // bottom-left of grid
-        for(int i = 0; i < sz; i++) {
-            for(int j = 0; j < sz; j++) {
-                three[i][j] = grid[i+sz][j];
-            }
-        }
-
-        // bottom-right of grid
-        for(int i = 0; i < sz; i++) {
-            for(int j = 0; j < sz; j++) {
-                four[i][j] = grid[i+sz][j+sz];
-            }
-        }        
-
         return new Node(false, false, construct(one), construct(two), construct(three), construct(four));
     }
 }
